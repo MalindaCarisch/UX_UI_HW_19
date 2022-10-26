@@ -1,0 +1,149 @@
+#mainNav {
+    display: flex;
+    list-style-type: none;
+    padding: 30px;
+    justify-content: flex-end;
+}
+
+.navList {
+    padding: 20px;
+}
+
+.heroImage {
+    margin: 70px;
+}
+
+.heroDesigner {
+    background-color:rgba(57, 156, 188, 0.326);
+    padding: 10px;
+    width: 130px;
+}
+
+.header {
+    text-align: center;
+}
+
+.aboutMe {
+    background-color: rgba(57, 156, 188, 0.326);
+    padding: 40px;
+    margin: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.workGrid {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 30% 50% 20%;
+    grid-template-areas: 
+    "researchHeader research tools"
+    "interfaceHeader interface tools"
+    "frontHeader frontEnd tools";
+}*/
+
+#researchHeader {
+    grid-area: researchHeader;
+}
+
+#interfaceHeader {
+    grid-area: interfaceHeader;
+}
+
+#frontHeader {
+    grid-area: frontHeader;
+}
+
+#research {
+    grid-area: research;
+}
+
+#interface {
+    grid-area: interface;
+}
+
+#frontEnd {
+    grid-area: frontEnd;
+}
+
+#tools {
+    grid-area: tools;
+}
+
+.gridArea {
+    margin: 30px;
+    display: grid;
+}
+
+.toolsList {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+/*.flexContainer {
+    display: flex;
+    flex-direction: row;
+}*/
+
+.flexItem {
+    padding: 10px;
+    margin: 15px;
+    width: 290px;
+    height: 290px;
+    background-color:rgba(57, 156, 188, 0.326);
+    color: black;
+    text-align: center;
+}
+
+.justifyContent {
+    justify-content: center;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    list-style-type: none;
+    justify-content: flex-start;
+}
+
+@media only screen and (min-width: 600px) {
+    .workGrid {
+        margin: 0px 5%;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 30% 50% 20%;
+        grid-template-areas: 
+        "researchHeader research tools"
+        "interfaceHeader interface tools"
+        "frontHeader frontEnd tools";
+    }
+    .flexContainer {
+    display: flex;
+    flex-direction: row;
+    }
+   
+}
+
+
+@media only screen and (max-width: 600px) {
+    .workGrid {
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "researchHeader"
+        "research"
+        "interfaceHeader"
+        "interface"
+        "frontHeader"
+        "frontEnd" 
+        "tools";  
+    }
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+    }    
+}
