@@ -1,3 +1,32 @@
+h1, .navList {
+    font-family:'Roboto', sans-serif, bold;
+}
+
+h2, h3 {
+    font-family: 'Roboto', sans-serif, medium;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    background-color: rgb(232, 91, 91);
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    border: rgb(220, 79, 79);
+    color: white;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: rgb(203, 37, 37);
+}
+
+.navList:hover {
+    color:rgb(194, 63, 63);
+}
+
 #mainNav {
     display: flex;
     list-style-type: none;
@@ -14,7 +43,7 @@
 }
 
 .heroDesigner {
-    background-color:rgba(57, 156, 188, 0.326);
+    background-color:rgba(57, 155, 188, 0.473);
     padding: 10px;
     width: 130px;
 }
@@ -24,9 +53,9 @@
 }
 
 .aboutMe {
-    background-color: rgba(57, 156, 188, 0.326);
+    background-color: rgba(219, 78, 118, 0.236);
     padding: 40px;
-    margin: 70px;
+    margin-inline: 100px;
     justify-content: center;
     align-items: center;
 }
@@ -75,9 +104,10 @@
     display: grid;
 }
 
-.toolsList {
-    margin-left: 0px;
-    margin-top: 0px;
+.toolsbox {
+    padding: 15px;
+    margin-bottom: 0;
+    align-items: center;
 }
 
 /*.flexContainer {
@@ -87,10 +117,10 @@
 
 .flexItem {
     padding: 10px;
-    margin: 15px;
+    margin: 10px;
     width: 290px;
     height: 290px;
-    background-color:rgba(57, 156, 188, 0.326);
+    background-color:rgba(19, 166, 105, 0.451);
     color: black;
     text-align: center;
 }
@@ -99,8 +129,32 @@
     justify-content: center;
 }
 
+.active {
+    color:rgb(44, 146, 108);
+}
+
+#tabContent2 {
+    display: none;
+}
+
+.tabBar {
+    align-items: center;
+    display: flex;
+    justify-content:center
+}
+
+.tab {
+    display:inline-block;
+    padding: 15px 25px;
+    margin: 15px;
+    width: 230px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 .footer {
-    background-color: black;
+    background-color: rgb(12, 36, 66);
     color: white;
     display: flex;
     padding: 20px;

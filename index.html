@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="css\index.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -36,6 +39,7 @@
         <p>
             As a designer, I am passionate about creating positive experiences by finding creative solutions with attention to detail and empathy. 
         </p>
+        <button class="btn">Download Resume</button>
         </div>
     </section>
     <section>
@@ -57,6 +61,7 @@
             <div id="frontEnd" class="gridArea">Fundamental understanding in HTML/CSS, JavaScript, JQuery, and Bootstrap.
             </div>
             <div id="tools" class="gridArea"> 
+                <div class="toolsbox">
                 <h3>TOOLS</h3>
                 <ul class=toolsList>
                     <li>Figma</li>
@@ -65,25 +70,46 @@
                     <li>Google Drive</li>
                     <li>GitHub</li>
                 </ul>
+                </div>
             </div>
         </div>
     </section>
     <section>
         <h1 class="header">MY WORK</h1>
-        <div class="flexContainer justifyContent">
+    <div class="tabContainer">
+        <div class="tabBar">
+            <div class="tab tab1 active">UX/UI Design</div>
+            <div class="tab tab2">Frontend Development</div>
+        </div>
+        <div class="flexContainer justifyContent" id="tabContent1">
             <div class="flexItem">
                 <img></img>
-                <h3>Case Study 1</h3>
+                <h3>Collective Planner Mobile App Case Study</h3>
             </div>
             <div class="flexItem">
                 <img></img>
-                <h3>Case Study 2</h3>
+                <h3>OutFront MN Website Redesign Case Study</h3>
             </div>
             <div class="flexItem">
                 <img></img>
-                <h3>Case Study 3</h3>
+                <h3>Final Case Study</h3>
             </div>
         </div>
+        <div class="flexContainer justifyContent" id="tabContent2">
+            <div class="flexItem">
+                <img></img>
+                <h3>Frontend Development 1</h3>
+            </div>
+            <div class="flexItem">
+                <img></img>
+                <h3>Frontend Development 2</h3>
+            </div>
+            <div class="flexItem">
+                <img></img>
+                <h3>Frontend Development 3</h3>
+            </div>
+        </div>
+    </div>
     </section>
     <footer>
         <ul class="footer">
