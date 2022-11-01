@@ -55,7 +55,13 @@ body {
 .aboutMe {
     background-color: rgba(219, 78, 118, 0.236);
     padding: 40px;
-    margin-inline: 100px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.aboutMecontent {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }

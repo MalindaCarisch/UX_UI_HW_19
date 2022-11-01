@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav id="navigation">
@@ -29,17 +31,26 @@
     </section>
     <section>
         <div class="aboutMe">
-        <h1 class="header">ABOUT ME</h1>
-        <p> 
-            I received my bachelors degree at the University of Wisconsin Stevens Point where I studied both theater and sociology. My experience in both of these areas has helped me be a designer with a strong sense of empathy as well as obtain experience working in a collaborative creative setting.
-        </p>
-        <p>
-            I am currently working on earning my UX/UI Design certificate through the University of Minnesota Boot Camp. This program has provided me hands on experience in user research, user interface design, and front end development. 
-        </p>
-        <p>
-            As a designer, I am passionate about creating positive experiences by finding creative solutions with attention to detail and empathy. 
-        </p>
-        <button class="btn">Download Resume</button>
+            <div class="aboutMecontent">
+                <div>
+                    <h1 class="header">ABOUT ME</h1>
+                    <p>
+                        I received my bachelors degree at the University of Wisconsin Stevens Point where I studied both theater
+                        and sociology. My experience in both of these areas has helped me be a designer with a strong sense of
+                        empathy as well as obtain experience working in a collaborative creative setting.
+                    </p>
+                    <p>
+                        I am currently working on earning my UX/UI Design certificate through the University of Minnesota Boot
+                        Camp. This program has provided me hands on experience in user research, user interface design, and
+                        front end development.
+                    </p>
+                    <p>
+                        As a designer, I am passionate about creating positive experiences by finding creative solutions with
+                        attention to detail and empathy.
+                    </p>
+                </div>
+                <div><button class="btn">Download Resume</button></div>
+            </div>
         </div>
     </section>
     <section>
@@ -47,69 +58,72 @@
         <div class="workGrid">
             <div id="researchHeader" class="gridArea">
                 <h3>USER RESEARCH</h3>
-                </div>
-            <div id="research" class="gridArea">User Interviews, Surveys, Persona Creation, Empathy Maps, Storyboards, Heuristic Evaluation, Competitor Analysis, User Flows.
-                </div>
+            </div>
+            <div id="research" class="gridArea">User Interviews, Surveys, Persona Creation, Empathy Maps, Storyboards,
+                Heuristic Evaluation, Competitor Analysis, User Flows.
+            </div>
             <div id="interfaceHeader" class="gridArea">
                 <h3>USER INTERFACE DESIGN</h3>
-                </div>
-            <div id="interface" class="gridArea">Wireframing, Prototyping, Interaction Design, Site Maps, Color Theory, Typography, Usability Testing.
-                </div>
+            </div>
+            <div id="interface" class="gridArea">Wireframing, Prototyping, Interaction Design, Site Maps, Color Theory,
+                Typography, Usability Testing.
+            </div>
             <div id="frontHeader" class="gridArea">
                 <h3> FRONT END DEVELOPMENT</h3>
-                </div>
-            <div id="frontEnd" class="gridArea">Fundamental understanding in HTML/CSS, JavaScript, JQuery, and Bootstrap.
             </div>
-            <div id="tools" class="gridArea"> 
+            <div id="frontEnd" class="gridArea">Fundamental understanding in HTML/CSS, JavaScript, JQuery, and
+                Bootstrap.
+            </div>
+            <div id="tools" class="gridArea">
                 <div class="toolsbox">
-                <h3>TOOLS</h3>
-                <ul class=toolsList>
-                    <li>Figma</li>
-                    <li>Miro</li>
-                    <li>Invision</li>
-                    <li>Google Drive</li>
-                    <li>GitHub</li>
-                </ul>
+                    <h3>TOOLS</h3>
+                    <ul class=toolsList>
+                        <li>Figma</li>
+                        <li>Miro</li>
+                        <li>Invision</li>
+                        <li>Google Drive</li>
+                        <li>GitHub</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
     <section>
         <h1 class="header">MY WORK</h1>
-    <div class="tabContainer">
-        <div class="tabBar">
-            <div class="tab tab1 active">UX/UI Design</div>
-            <div class="tab tab2">Frontend Development</div>
+        <div class="tabContainer">
+            <div class="tabBar">
+                <div class="tab tab1 active">UX/UI Design</div>
+                <div class="tab tab2">Frontend Development</div>
+            </div>
+            <div class="flexContainer justifyContent" id="tabContent1">
+                <div class="flexItem">
+                    <img></img>
+                    <h3>Collective Planner Mobile App Case Study</h3>
+                </div>
+                <div class="flexItem">
+                    <img></img>
+                    <h3>OutFront MN Website Redesign Case Study</h3>
+                </div>
+                <div class="flexItem">
+                    <img></img>
+                    <h3>Final Case Study</h3>
+                </div>
+            </div>
+            <div class="flexContainer justifyContent" id="tabContent2">
+                <div class="flexItem">
+                    <img></img>
+                    <h3>Frontend Development 1</h3>
+                </div>
+                <div class="flexItem">
+                    <img></img>
+                    <h3>Frontend Development 2</h3>
+                </div>
+                <div class="flexItem">
+                    <img></img>
+                    <h3>Frontend Development 3</h3>
+                </div>
+            </div>
         </div>
-        <div class="flexContainer justifyContent" id="tabContent1">
-            <div class="flexItem">
-                <img></img>
-                <h3>Collective Planner Mobile App Case Study</h3>
-            </div>
-            <div class="flexItem">
-                <img></img>
-                <h3>OutFront MN Website Redesign Case Study</h3>
-            </div>
-            <div class="flexItem">
-                <img></img>
-                <h3>Final Case Study</h3>
-            </div>
-        </div>
-        <div class="flexContainer justifyContent" id="tabContent2">
-            <div class="flexItem">
-                <img></img>
-                <h3>Frontend Development 1</h3>
-            </div>
-            <div class="flexItem">
-                <img></img>
-                <h3>Frontend Development 2</h3>
-            </div>
-            <div class="flexItem">
-                <img></img>
-                <h3>Frontend Development 3</h3>
-            </div>
-        </div>
-    </div>
     </section>
     <footer>
         <ul class="footer">
@@ -121,5 +135,6 @@
         </ul>
     </footer>
 </body>
-    <script src="js/index.js"></script> 
+<script src="js/index.js"></script>
+
 </html>
